@@ -1,5 +1,11 @@
+import '../styles/Gallery.css';
+
 const Gallery = () => {
-    return <h1>Gallery</h1>;
+    return (
+      <div id="gallery">
+        <h1>Gallery</h1>
+      </div>
+    ) 
   };
 
 export default Gallery;
