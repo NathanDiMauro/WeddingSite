@@ -12,6 +12,6 @@ export default function CountDown() {
     getCountDown();
 
     return (
-        <p className='center' id='countDown'>{CountDown}</p>
+        <p className='center' id='countDown'>{CountDown} Days</p>
     );
   }

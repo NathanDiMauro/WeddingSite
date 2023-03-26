@@ -1,20 +1,21 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const countDown = require('./lib/countDown').countdown;
+const app = express();
 const cors = require('cors');
-const port = 3001
+const port = 3001;
 
 app.use(cors({
     origin: '*'
 }));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World!');
 })
 
 app.get('/countdown', (req, res) => {
-    res.send('1 day')
-  })
+  res.send(countDown());
+})
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening on port ${port}`);
 })
