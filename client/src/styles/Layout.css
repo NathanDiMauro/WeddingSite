@@ -2,6 +2,7 @@ nav {
     background-color: #1c1c1c;
     color: #c9c9c9;
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav li {
@@ -9,8 +10,17 @@ nav li {
     padding-right: 30%;
     text-decoration: none;
 }
+
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 1.35rem;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 550px) {
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+    }
 }

@@ -15,6 +15,7 @@ hr {
 #date {
   font-size: 3rem;
   margin-top: .5%; 
+  font-family: 'Dancing Script', cursive;
 }
 
 #countDown {
@@ -32,4 +33,11 @@ hr {
   width: 44%;
   float: left;
   padding-left: 3%;
+}
+
+@media screen and (max-width: 550px) {
+  .meet {
+    float: none;
+    width: 90%
+  }
 }
