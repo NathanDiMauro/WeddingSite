@@ -23,3 +23,22 @@
   float: left;
   padding-left: 3%;
 }
+
+#erika p {
+  padding: 3%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.7)), url('../images/erikaStory2.jpeg');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#nate p {
+  padding: 2%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.418)), url('../images/erikaStor2.jpeg');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
