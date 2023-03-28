@@ -1,2 +1,2 @@
 # WeddingSite
-Nathan and Erika Weding Website
+Nathan and Erika Wedding Website
