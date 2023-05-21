@@ -1,4 +1,5 @@
 import CountDown from "../components/countDown.js"
+import main from '../images/mainBW.jpg'
 
 import '../styles/Home.css';
 
@@ -10,6 +11,7 @@ const Home = () => {
       <p className='center' id='until'>until</p>
       <p className='center' id='EaN'>Erika and Nathan</p>
       <p className='center' id='tie'>Tie the Knot</p>
+      <img id="mainBW" src={main} alt="Nate holding Erika"/>
       <hr></hr>
       <p className='center' id='how'>How We Met</p>
       <div className='meet' id='erika'>

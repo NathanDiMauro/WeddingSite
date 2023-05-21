@@ -4,7 +4,7 @@ export default function CountDown() {
     const [CountDown, setCountDown] = useState("loading...");
 
     async function getCountDown() {
-        let result=await fetch('http://localhost:3001/countdown').then(req => req.text());
+        let result=await fetch('http://localhost:5000/api/countdown').then(req => req.text());
         console.log(result);
         setCountDown(result);
     };
